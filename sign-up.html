@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="../static/css/sign-up.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-sub">
+            <form action="#">
+                <span class="login-1">Register yourself</span>
+                <div class="align">
+                    <div class="user-name">
+                        <p><label for="email">Enter your Email:</label></p>
+                        <input type="email" name="email" id="email" placeholder="enter your email here">
+                    </div>
+                    <div class="user-name">
+                        <p><label for="name">UserName</label></p>
+                        <input type="text" name="name" id="name" placeholder="enter your User name here">
+                    </div>
+                    <div class="pass">
+                        <p><label for="password">Password</label></p>
+                        <input type="password" name="password" id="password" placeholder="enter your password here">
+                    </div>
+                    <div class="pass">
+                        <p><label for="cnf-pass">Confirm Password</label></p>
+                        <input type="password" name="cnf-pass" id="cnf-pass" placeholder="Confirm your password">
+                    </div>
+                    <div class="DOB">
+                        <p><label for="birth-date">Date of Birth</label></p>
+                        <input type="date" name="birth-date" id="birth-date">
+                    </div>
+                    <div class="btn-deg">
+                        <div class="login-btn">
+                            <div class="login-btn-sub"></div>
+                            <button onclick="return check()">CREATE</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script src="../static/js/sign-up.js"></script>
+</body>
+
+</html>
